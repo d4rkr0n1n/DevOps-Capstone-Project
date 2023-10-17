@@ -1,0 +1,9 @@
+---
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: upg-loadme
+  namespace: demo
+spec:
+  # Add hpa spec as per requirement
+  # Refer: https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough/#creating-the-autoscaler-declaratively
